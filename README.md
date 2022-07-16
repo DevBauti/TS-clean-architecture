@@ -5,7 +5,7 @@ Clean architecture practice in Typescript. It implements memory saving and conso
 # Folder structure 
 
 ### src
-#### |-domain
+#### domain
     |-entities
             user.ts
     |-exceptions
@@ -17,13 +17,13 @@ Clean architecture practice in Typescript. It implements memory saving and conso
     |-services
             ExistUserByUserName.ts
             UserGetterById.ts
-#### |-application
+#### application
     |-usecase
             userCreator.ts
             userDeleter.ts
             userGetter.ts
             userUpdater.ts
-#### |-infraestructure
+#### infraestructure
     |-driven-adapter
             aws.ts
             dynamoDB.ts
@@ -52,4 +52,4 @@ Clean architecture practice in Typescript. It implements memory saving and conso
                 inMemoryUserRepository.ts
 
 
-#### //a bit long i know
+###### A bit long i know
